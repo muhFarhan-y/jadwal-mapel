@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:wght@300&display=swap');
+footer{
+    padding:  45px 35px;
+    border-top: 1px solid rgb(124, 121, 121);
+    
+}
+nav{
+    border-bottom: 1px solid rgb(124, 121, 121);
+    font-family: 'Pacifico';
+}
+.kolom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.list-mapel{
+    text-align: start;
+    font-family: 'Roboto';
+}
+
+#hari-mapel1{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color: #fff;
+}
+#hari-mapel1 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel1:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+
+#hari-mapel2{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color:#fff;
+}
+#hari-mapel2 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel2:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+
+#hari-mapel3{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color: #fff;
+}
+#hari-mapel3 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel3:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+#hari-mapel4{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color: #fff;
+}
+#hari-mapel4 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel4:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+#hari-mapel5{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color: #fff;
+}
+#hari-mapel5 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel5:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+#hari-mapel6{
+    flex: 10px;
+    padding: 23px;
+    height: 9cm;
+    border-radius: 6px;
+    box-shadow:  0 2px 4px 0 #535050;
+    margin: 23px;
+    background-color: #fff;
+}
+#hari-mapel6 > h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#hari-mapel6:hover{
+    border: 1px solid rgb(39, 38, 38);
+
+}
+@media screen and (max-width: 600px) {
+    .kolom{
+        flex-direction: column;
+    }
+}
